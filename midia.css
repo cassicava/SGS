@@ -1,30 +1,41 @@
 /* Dispositivos um pouco maiores, mas ainda pequenos (Pequenos Tablets e Smartphones + largos, 600px para cima) */
 @media only screen and (min-width: 600px) {
 
-    .links{
+    .links {
         display: flex;
         flex-direction: row;
-        align-items:center;
+        align-items: center;
         justify-content: center;
-    
+
         width: auto;
         height: auto;
     }
 
-    #titulo{
+    #titulo {
         display: none;
-        }
+
+    }
 
 }
 
 
 /* Dispostivos Médios (Tablets deitados, 768px para cima) */
 @media only screen and (min-width: 768px) {
+    
+    .links {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
 
-    main {
+        width: auto;
+        height: auto;
+    }
 
-        margin: 5% 10%;
+    #titulo {
+        display: none;
 
     }
+
 
 }
